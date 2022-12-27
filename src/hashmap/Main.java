@@ -1,3 +1,5 @@
+package hashmap;
+
 public class Main {
     static int solution(int array[]) {
         int answer = 0;

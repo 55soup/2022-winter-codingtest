@@ -1,3 +1,5 @@
+package hashmap;
+
 import java.util.Arrays;
 
 public class Student implements Comparable{
@@ -22,7 +24,7 @@ public class Student implements Comparable{
 //    @Override
 //    public int compareTo(Object obj) {
 //       // gpa비교할 때
-//        Student other = (Student) obj;
+//        hashmap.Student other = (hashmap.Student) obj;
 //        if(gpa<other.gpa)
 //            return -1;
 //        else if(gpa>other.gpa)
@@ -41,7 +43,7 @@ public class Student implements Comparable{
 //    @Override
 //    public int compareTo(Object obj) {
 //        //문자열 비교일 때
-//        Student other=(Student) obj;
+//        hashmap.Student other=(hashmap.Student) obj;
 ////        return (this.name.compareTo(other.name));
 ////        return (other.name.compareTo(this.name));
 //    }

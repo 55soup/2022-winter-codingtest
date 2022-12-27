@@ -1,3 +1,5 @@
+package hashmap;
+
 public class ArrayCopyExample {
     public static void main(String[] args) {
         String[] oldStrArray = {"java", "array", "copy"};

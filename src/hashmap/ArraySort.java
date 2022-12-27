@@ -1,3 +1,5 @@
+package hashmap;
+
 import java.util.Arrays;
 
 public class ArraySort {
