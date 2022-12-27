@@ -1,4 +1,4 @@
-package hashmap;
+package Day1;
 
 public class Main {
     static int solution(int array[]) {

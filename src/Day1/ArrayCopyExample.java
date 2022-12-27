@@ -1,4 +1,4 @@
-package hashmap;
+package Day1;
 
 public class ArrayCopyExample {
     public static void main(String[] args) {
