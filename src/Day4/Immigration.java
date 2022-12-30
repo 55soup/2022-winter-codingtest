@@ -4,35 +4,32 @@ import java.util.Arrays;
 
 public class Immigration {
     public static long solution(int n, int[] times) {
-        long answer = 0;
-        // 처리하는데 걸리는 최장 시간
-        int max_time = Arrays.stream(times).max().getAsInt();
-        int min=0;
-        int max=max_time*n;
+        long answer = Long.MAX_VALUE;
+        Arrays.sort(times);
+        long start=times[0];
+        long end=(long)times[times.length-1]*(long)n; 
+        // times에 심사대 마다 걸리는 시간이 걸려있으니 최대시간 = 가장오래걸리는 시간 * 인원수
 
         // 이분검색으로 찾기...
         // 60 => 30/7+30/10 > n  15/7+15/10=3
-        int cal=0;
-        int mid=0;
+        long mid;
+        long sum=0;
         // 이분검색으로 찾기...
-        while(min<max){
+        while(start<=end){
             // 60 => 30/7+30/10 > n  15/7+15/10=3
-            mid=(min+max)/2; //5
-            cal=0;
-            for(int time:times)
-                cal+=mid/time; //2+1+1
-            if(cal > n){
-                // 시간이 충분한경우
-                max=mid-1;
+            mid=(start+end)/2; //5
+            sum=0;
+            for(int time:times){
+                sum+=mid/time; //2+1+1
             }
-            else if(cal < n){
-                // 시간이 부족한 경우
-                min=mid+1;
+            if(sum >= n){
+                // 시간이 충분한경우
+                answer = Math.min(answer, mid);
+                end=mid-1;
             }
             else{
-                // 시간이 딱 맞는 경우
-                answer=mid;
-                break;
+                // 시간이 부족한 경우
+                start=mid+1;
             }
         }
         return answer;
