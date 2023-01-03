@@ -18,5 +18,32 @@
     <ClCompile Include="getDays.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="engAttendee.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="getPrice.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="palindrome.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="369game.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="numCnt.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="avgCnt.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="reserveArr.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="duplication.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="m-n.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
