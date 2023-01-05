@@ -33,5 +33,11 @@
     <ClCompile Include="passKey.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="getTeamScore.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="charProcessHour.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

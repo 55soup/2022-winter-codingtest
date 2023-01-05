@@ -15,10 +15,34 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CardCombination.c">
+    <ClCompile Include="2.CardCombination.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="getWeightCount.c">
+    <ClCompile Include="1.getWeightCount.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="3.schoolBus.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="4.password.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="5.squareBrackets.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="6.attendee.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="7.location.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="8.scoreAvg.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="9.lodging.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="10.midtermExam.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
