@@ -21,6 +21,6 @@ int* solution(int a, int b) {
 	return result;
 }
 void main() {
-	int* answer = solution(123,345);
+	int* answer = solution(452,329);
 	printf("%d %d", answer[0], answer[1]); // 스트라이크: 0개, 볼: 1개
 }

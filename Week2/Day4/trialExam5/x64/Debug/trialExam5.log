@@ -1,0 +1,3 @@
+﻿  4.telphone.c
+C:\Users\sunjo\source\repos\CodingTestWinter2022\Week2\Day4\trialExam5\4.telphone.c(16,45): warning C4013: 'strlen'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  trialExam5.vcxproj -> C:\Users\sunjo\source\repos\CodingTestWinter2022\Week2\Day4\x64\Debug\trialExam5.exe

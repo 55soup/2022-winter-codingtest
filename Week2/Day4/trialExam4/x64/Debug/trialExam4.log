@@ -1,4 +1,2 @@
-﻿  10.midtermExam.c
-C:\Users\Mirim\IdeaProjects\CodingTestWinter2022\Week2\Day4\trialExam4\10.midtermExam.c(20,32): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Mirim\IdeaProjects\CodingTestWinter2022\Week2\Day4\trialExam4\10.midtermExam.c(21,32): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  trialExam4.vcxproj -> C:\Users\Mirim\IdeaProjects\CodingTestWinter2022\Week2\Day4\x64\Debug\trialExam4.exe
+﻿  4.password.c
+  trialExam4.vcxproj -> C:\Users\sunjo\source\repos\CodingTestWinter2022\Week2\Day4\x64\Debug\trialExam4.exe

@@ -7,7 +7,7 @@ int solution(char string[]) {
 	int number = 0;
 	for (int i = 0; string[i] != 0; i++) {
 		if ('0' <= string[i] && string[i] <= '9') { // 다음 문자가 숫자라면
-			number = number * 10 + (string[i]-48); 
+			number = number * 10 + (string[i]-'0');
 			// number * 10 -> 다음 문자로 숫자가 나올지 안나올지 모름.
 			// '0'-> 0 : 48 빼기!!
 		}

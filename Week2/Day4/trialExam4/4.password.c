@@ -20,6 +20,6 @@ char* solution(char string[]) {
 }
 
 void main() {
-	char password[] = "abcd";
+	char password[] = "1234";
 	printf("%s", solution(password));
 }
